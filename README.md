@@ -59,13 +59,12 @@ The dataset includes 10 years of Balanced Scorecard data, covering:
 │   ├── 02_data_preprocessing.ipynb
 │   ├── 03_exploratory_data_analysis.ipynb
 │   ├── 04_modeling.ipynb
-│   ├── 05_model_deployment.ipynb
 ├── src
 │   ├── data_collection.py
 │   ├── data_preprocessing.py
 │   ├── eda.py
 │   ├── modeling.py
-│   ├── deployment.py
+│   ├── run.py
 ├── dashboards
 │   ├── dashboard.ipynb
 ├── requirements.txt
@@ -108,15 +107,15 @@ The dataset includes 10 years of Balanced Scorecard data, covering:
 ## Technologies Used
 
 - **Programming Languages**: Python (Pandas, NumPy, Scikit-Learn, Flask)
-- **Visualization Tools**: Tableau, Power BI, Matplotlib, Seaborn
-- **Deployment**: Flask, AWS SageMaker, Docker
-- **Other Tools**: SQL, Jupyter Notebooks, Git
+- **Visualization Tools**: Power BI, Matplotlib, Seaborn
+- **Deployment**: Flask, Vercel
+- **Other Tools**: SQLite, Jupyter Notebooks, Git
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pmt-analytics.git
+   git clone https://github.com/nyashaChiza/pmt-analytics.git
    cd pmt-analytics
    ```
 
