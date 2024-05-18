@@ -116,13 +116,13 @@ The dataset includes 10 years of Balanced Scorecard data, covering:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/PredictivePerformanceBSC.git
-   cd PredictivePerformanceBSC
+   git clone https://github.com/yourusername/pmt-analytics.git
+   cd pmt-analytics
    ```
 
 2. Create and activate a virtual environment:
    ```bash
-   python -m venv env
+   python -m venv pmt-env
    source env/bin/activate  # On Windows, use `env\Scripts\activate`
    ```
 
@@ -143,14 +143,14 @@ The dataset includes 10 years of Balanced Scorecard data, covering:
    python src/modeling.py
    ```
 
-3. Start the Flask application for model deployment:
+3. Start the Flask application:
    ```bash
-   python src/deployment.py
+   flask run.py
    ```
 
 4. Access the interactive dashboard:
    ```bash
-   jupyter notebook dashboards/dashboard.ipynb
+   127.0.0.1:5000/
    ```
 
 ## Contributing
