@@ -5,7 +5,7 @@ markdown
 
 ## Project Overview
 
-This project leverages 10 years of Balanced Scorecard (BSC) data from a 30-employee organization to develop predictive models and interactive dashboards. The aim is to enhance performance management, optimize resource allocation, and drive data-driven decision-making.
+This project leverages Balanced Scorecard (BSC) data from an organization to develop predictive models and interactive dashboards. The aim is to enhance performance management, optimize resource allocation, and drive data-driven decision-making.
 
 ## Table of Contents
 
